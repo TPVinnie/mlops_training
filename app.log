@@ -1,0 +1,11 @@
+[I 230914 13:33:43 flask_app:12] Flask app started
+[I 230914 13:53:17 flask_app:31] A request was made at 2023-09-14 13:53:17 with INPUT DATA {'Age': 33, 'EstimatedSalary': 177000}  and the response was highly likely to purchase
+[I 230914 13:53:28 flask_app:31] A request was made at 2023-09-14 13:53:28 with INPUT DATA {'Age': 20, 'EstimatedSalary': 177000}  and the response was highly likely to purchase
+[I 230914 13:53:37 flask_app:31] A request was made at 2023-09-14 13:53:37 with INPUT DATA {'Age': 10, 'EstimatedSalary': 177000}  and the response was highly likely to purchase
+[I 230914 13:53:53 flask_app:31] A request was made at 2023-09-14 13:53:53 with INPUT DATA {'Age': 10, 'EstimatedSalary': 1000}  and the response was not likely to purchase
+[I 230914 13:54:03 flask_app:31] A request was made at 2023-09-14 13:54:03 with INPUT DATA {'Age': 10, 'EstimatedSalary': 11000}  and the response was not likely to purchase
+[I 230914 13:54:19 flask_app:31] A request was made at 2023-09-14 13:54:19 with INPUT DATA {'Age': 10, 'EstimatedSalary': 100000}  and the response was not likely to purchase
+[I 230914 13:54:35 flask_app:31] A request was made at 2023-09-14 13:54:35 with INPUT DATA {'Age': 10, 'EstimatedSalary': 200000}  and the response was highly likely to purchase
+[I 230914 13:54:43 flask_app:31] A request was made at 2023-09-14 13:54:43 with INPUT DATA {'Age': 1, 'EstimatedSalary': 200000}  and the response was highly likely to purchase
+[I 230914 13:54:50 flask_app:31] A request was made at 2023-09-14 13:54:50 with INPUT DATA {'Age': 0, 'EstimatedSalary': 200000}  and the response was highly likely to purchase
+[I 230914 13:56:09 flask_app:31] A request was made at 2023-09-14 13:56:09 with INPUT DATA {'Age': 40, 'EstimatedSalary': 200000}  and the response was highly likely to purchase
