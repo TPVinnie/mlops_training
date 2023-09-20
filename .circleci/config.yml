@@ -6,22 +6,22 @@ jobs:
     working_directory: ~/app
     #working directory:
     steps:
-      -checkout
-      -setup_remote_docker:
+      - checkout
+      - setup_remote_docker:
         version: 19.03.13
-      -run:
+      - run:
         name: Install Dependencies
         command: |
           pip install -r requirements.txt
-      -run:
+      - run:
         name: Run Tests
         command: |
           pytest tests/test_app.py
-      -run:
+      - run:
         name: Build Docker Image
         command: |
           docker tag mlops_demo:latest 031436032280.dkr.ecr.us-east-1.amazonaws.com/mlops_demo
-      -run:
+      - run:
         name: Deploy to Stagging
         command: |
           sudo pip install awscli
